@@ -306,17 +306,103 @@ public class Pattern {
 ////        E D C B A
 
 
-        int n = 5;
-        for (int row = 1; row <= n; row++) {
-            for(int col=1; col<=row; col++){
-                int a =n-col;
-                int b = 'A';
-                int ans = a+b;
-                char finalAns = (char)ans;
-                System.out.print(finalAns +" ");
+//        int n = 5;
+//        for (int row = 1; row <= n; row++) {
+//            for(int col=1; col<=row; col++){
+//                int a =n-col;
+//                int b = 'A';
+//                int ans = a+b;
+//                char finalAns = (char)ans;
+//                System.out.print(finalAns +" ");
+//
+//            }
+//            System.out.println();
+//        }
 
-            }
-            System.out.println();
-        }
+// Print the this question
+//      1
+//    1 2 1
+//  1 2 3 2 1
+//1 2 3 4 3 2 1
+
+//        int n = 4;
+//
+//        for (int row = 1; row <= n; row++) {
+//
+//            // Part 1 : Spaces
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print("  ");
+//            }
+//
+//            // Part 2 : Increasing numbers
+//            for (int col = 1; col <= row; col++) {
+//                System.out.print(col + " ");
+//            }
+//
+//            // Part 3 : Decreasing numbers
+//            int decRowValue = row - 1;
+//            for (int col = 1; col <= row - 1; col++) {
+//                System.out.print(decRowValue + " ");
+//                decRowValue--;
+//            }
+//
+//            System.out.println();
+//        }
+
+//Print this questions
+//          1
+//        2 2 2
+//        3 3 3 3 3
+//        4 4 4 4 4 4 4
+
+
+
+//        int n =4;
+//        for(int row =1; row<=n; row++){
+//            for(int col =1; col <= n-row; col++){
+//                System.out.print("  ");
+//            }
+//            for(int col =1; col<= 2*row-1; col++){
+//                System.out.print(row + " ");
+//            }
+//            System.out.println();
+//        }
+
+//Print this questions
+//          A
+//        A B A
+//      A B C B A
+//    A B C D C B A
+
+
+
+//        int n =4;
+//        for(int row =1; row <= n; row++){
+////            part 1
+//            for(int col =1; col<= n-row; col++){
+//                System.out.print("  ");
+//            }
+////            part 2
+//            for(int col =1; col<=row; col++){
+//                int a = col;
+//                int b = 'A'-1;
+//                int ans = a+b;
+//                char finalAns = (char)ans;
+//                System.out.print(finalAns + " ");
+//            }
+////            Part 3
+//            char toPrint = (char)(row+ 'A' -2);
+//            for(int col =1; col<= row-1; col++){
+//                System.out.print(toPrint + " ");
+//                toPrint--;
+//            }
+//            System.out.println();
+//
+//        }
+
+
+
+
+
     }
 }
