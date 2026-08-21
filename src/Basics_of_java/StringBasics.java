@@ -1,3 +1,5 @@
+package Basics_of_java;
+
 public class StringBasics {
 
     static void printString(String str){
@@ -56,9 +58,15 @@ public class StringBasics {
 
     public static void main(String[] args) {
 
+        String str = "    Abhi  ";
+        String str1= str.trim();
+        System.out.println(str);
+        System.out.println(str1);
+        System.out.println(str.isEmpty());
+        System.out.println(str.isBlank());
 //        String str = "Abhishek";
-        String str = "noon";
-        System.out.println(isPalindrome(str));
+//        String str = "noon";
+//        System.out.println(isPalindrome(str));
 //        System.out.println(reverseString(str));
 //        System.out.println(getVowelscount(str));
 //        System.out.println(getLengthOfString(str));

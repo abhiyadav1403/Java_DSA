@@ -1,7 +1,113 @@
+package Basics_of_java;
+
 import java.util.Scanner;
 
 public class Arrays {
+
+
+//    static void reverseArray(int[] arr){
+//
+//        int left =0 , right = arr.length-1;
+//        while(left<right) {
+//            int temp = arr[left];
+//            arr[left] = arr[right];
+//            arr[right] = temp;
+//            left++;
+//            right--;
+//
+//            System.out.println(temp);
+//        }
+//    }
+
     public static void main(String[] args) {
+
+        int arr[][] = new int[2][2];
+        Scanner sc = new Scanner(System.in);
+        for(int i =0 ; i <= arr.length-1; i++){
+            for(int j =0; j <= arr[i].length-1 ; j++){
+                System.out.println("Provide the value for row  " + i + "and column " + j);
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+//        for(int rowIndex =0 ; rowIndex <= arr.length-1; rowIndex++){
+//            for(int colIndex =0; colIndex <= arr[rowIndex].length-1; colIndex++){
+//                System.out.print(arr[rowIndex][colIndex] + " ");
+//            }
+//            System.out.println();
+//        }
+//        int sum = 0;
+//        int multiple = 1;
+
+//        int maxValue = arr[0][0];
+        int minValue = arr[0][0];
+        for(int row =0; row<= arr.length-1; row++){
+            for(int col=0; col<= arr[row].length-1; col++){
+                int value = arr[row][col];
+//                multiple = multiple * value;
+                if (value < minValue){
+                    minValue = value;
+                }
+
+            }
+        }
+        System.out.println("Value of the output : " + minValue);
+
+
+
+
+
+//    int arr[] = {1,2,34,-4};
+//    int n = arr.length;
+//    int minValue = arr[0];
+//    for(int i =0; i<=n-1; i++){
+//        if( arr[i] < minValue){
+//            minValue = arr[i];
+//        }
+//    }
+//        System.out.println("Minimum value :" + minValue);
+
+
+
+//        int arr[] = new int[5];
+//        int n = arr.length;
+//        Scanner sc = new Scanner(System.in);
+//        int minValue = arr[0];
+//        for(int i =0; i<=n-1; i++){
+//            System.out.println("Enter the value ");
+//            arr[i] = sc.nextInt();
+//            if (arr[i] < minValue){
+//                minValue = arr[i];
+//            }
+//        }
+//        System.out.println("Print the minimum value :" + minValue);
+//        int maxValue = arr[0];
+//        for(int i = 0; i<= n-1 ; i++){
+//            System.out.println("Enter the index Value");
+//             arr[i] = sc.nextInt();
+////            System.out.println("Enter the value :");
+////             int max=arr[i];
+//             if (arr[i]> maxValue){
+//                 maxValue = arr[i];
+//
+//            }
+//        }
+//        System.out.println(maxValue);
+
+//        for(int i =0; i<=n-1; i++) {
+//            arr[i] = sc.nextInt();
+//            System.out.println("value of the array " + arr[i]);
+//        }
+//
+//        for(int val: arr){
+//            System.out.println(val);
+//        }
+
+//        int []arr = {12,2,3,4,5};
+//        reverseArray(arr);
+//        for(int i =0; i<=arr.length-1; i++){
+//            System.out.println(arr[i]);
+//        }
 
 
 ////        int arr[] = new int[5];
@@ -182,16 +288,16 @@ public class Arrays {
 //        }
 //        System.out.println(maxValue);
 
-        int arr[][] = { {100,21,333}, {11,32,13}};
-        int minValue = arr[0][0];
-        for(int i=0; i<= arr.length-1; i++ ){
-            for(int j=0; j<=arr[i].length-1; j++){
-                if(arr[i][j]< minValue){
-                    minValue= arr[i][j];
-                }
-            }
-        }
-        System.out.println(minValue);
+//        int arr[][] = { {100,21,333}, {11,32,13}};
+//        int minValue = arr[0][0];
+//        for(int i=0; i<= arr.length-1; i++ ){
+//            for(int j=0; j<=arr[i].length-1; j++){
+//                if(arr[i][j]< minValue){
+//                    minValue= arr[i][j];
+//                }
+//            }
+//        }
+//        System.out.println(minValue);
 
 
     }

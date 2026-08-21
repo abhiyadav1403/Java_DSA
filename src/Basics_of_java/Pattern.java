@@ -1,3 +1,5 @@
+package Basics_of_java;
+
 public class Pattern {
     public static void main(String[] args) {
 //        int n = 5;

@@ -1,3 +1,5 @@
+package Basics_of_java;
+
 public class Methods {
 
 //    static void add(int x, int y){

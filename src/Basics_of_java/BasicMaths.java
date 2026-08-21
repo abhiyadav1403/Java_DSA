@@ -1,3 +1,5 @@
+package Basics_of_java;
+
 public class BasicMaths {
 
     static  void printdigit(int num){
