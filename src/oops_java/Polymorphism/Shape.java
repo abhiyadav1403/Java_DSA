@@ -1,0 +1,7 @@
+package oops_java.Polymorphism;
+
+public class Shape {
+    public void draw(){
+        System.out.println("Generic shape drawing..");
+    }
+}
