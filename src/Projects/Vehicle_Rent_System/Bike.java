@@ -1,34 +1,5 @@
 package Projects.Vehicle_Rent_System;
-//
-//public class Bike extends Vehicle{
-//    private boolean helmetIncluded;
-//    public Bike(int vehicleId, String brand, double priceperDay, boolean helmetIncluded) {
-//        super(vehicleId, brand, priceperDay);
-//        this.helmetIncluded=helmetIncluded;
-//    }
-//    public boolean isHelmetIncluded() {
-//        return helmetIncluded;
-//    }
-////    method Overriding
-//    @Override
-//    public double calculateRentalCost(int days) {
-//        return getPriceperDay() * days;
-//    }
-//
-//    @Override
-//    public void displayVehicle() {
-//        System.out.println("--------------------------------");
-//        System.out.println("Vehicle Type : Bike");
-//        System.out.println("Vehicle ID   : " + getVehicleId());
-//        System.out.println("Brand        : " + getBrand());
-//        System.out.println("Helmet       : "
-//                + (helmetIncluded ? "Included" : "Not Included"));
-//        System.out.println("Price/Day    : ₹" + getPriceperDay());
-//        System.out.println("Status       : "
-//                + (isRented() ? "Rented" : "Available"));
-//        System.out.println("--------------------------------");
-//    }
-//}
+
 
 public class Bike extends Vehicle {
 

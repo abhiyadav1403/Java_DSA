@@ -1,33 +1,6 @@
 package Projects.Vehicle_Rent_System;
-//
-//public class Car extends Vehicle {
-//    private int numberOfSeats;
-//
-//    public Car(int vehicleId, String brand, double priceperDay, int numberOfSeats) {
-//        super(vehicleId, brand, priceperDay);
-//        this.numberOfSeats=numberOfSeats;
-//    }
-//    public int getNumberOfSeats() {
-//        return  numberOfSeats;
-//    }
-////    Method OverLoading
-//    @Override
-//    public double calculateRentalCost(int days) {
-//        return getPriceperDay()* days;
-//    }
-//    @Override
-//    public void displayVehicle() {
-//        System.out.println("--------------------------------");
-//        System.out.println("Vehicle Type : Car");
-//        System.out.println("Vehicle ID   : " + getVehicleId());
-//        System.out.println("Brand        : " + getBrand());
-//        System.out.println("Seats        : " + numberOfSeats);
-//        System.out.println("Price/Day    : ₹" + getPriceperDay());
-//        System.out.println("Status       : "
-//                + (isRented() ? "Rented" : "Available"));
-//        System.out.println("--------------------------------");
-//    }
-//}
+
+
 public class Car extends Vehicle {
 
     private int numberOfSeats;

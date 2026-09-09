@@ -27,17 +27,6 @@ public class Main {
 
         do {
 
-//            System.out.println("\n=================================");
-//            System.out.println("       VEHICLE RENTAL SYSTEM");
-//            System.out.println("=================================");
-//            System.out.println("1. Display Vehicles");
-//            System.out.println("2. Rent Vehicle");
-//            System.out.println("3. Return Vehicle");
-//            System.out.println("4. Calculate Rental Cost");
-//            System.out.println("5. Exit");
-//            System.out.println("=================================");
-
-
             System.out.println("\n=================================");
             System.out.println("       VEHICLE RENTAL SYSTEM");
             System.out.println("=================================");
@@ -182,14 +171,6 @@ public static Vehicle findVehicle(int vehicleId) {
         double discount =
                 originalCost - finalCost;
 
-
-//        double cost = vehicle.calculateRentalCost(days);
-
-//        System.out.println("--------------------------------");
-//        System.out.println("Vehicle : " + vehicle.getBrand());
-//        System.out.println("Days    : " + days);
-//        System.out.println("Cost    : ₹" + cost);
-//        System.out.println("--------------------------------");
 
         System.out.println("--------------------------------");
         System.out.println("Vehicle        : " + vehicle.getBrand());
