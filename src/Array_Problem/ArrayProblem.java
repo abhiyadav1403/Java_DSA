@@ -121,6 +121,7 @@ public class ArrayProblem {
 //        int ans[] = getPosNegSum(arr);
 //        System.out.println("Positive sum:" +ans[0]);
 //        System.out.println("Negative sum: " + ans[1]);
+
 //        int arr[] = {4,19,8,9 ,10};
 //        System.out.println(getMax(arr));
 
