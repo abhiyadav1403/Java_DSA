@@ -37,7 +37,7 @@ public class Wave_print_matrix {
                 {4,5,6},
                 {7,8,9}
         };
-        System.out.println(obj.wavePrintMatrix(matrix, 3, 3));
+        System.out.println(obj.wavePrintMatrix(matrix, 3, 3                                                                                                                                          ));
 
     }
 }
