@@ -31,19 +31,21 @@ public class Spiral_Print_Matrix {
             }
             endingRow--;
 //            row wise right to left -> endingRow print krni h, from endingCol to startingCol
-
-            for(int col=endingCol; col>=startingCol; col--){
-                result.add(matrix[endingRow][col]);
+//             valid endingRow -> startingRow <= endingRow
+            if(startingRow < endingRow) {
+                for (int col = endingCol; col >= startingCol; col--) {
+                    result.add(matrix[endingRow][col]);
+                }
+                endingCol--;
             }
-            endingCol--;
-
 //            col wise bottom to top -> startingCol print krna h, from endingRow to startingRow
-
-            for(int row=endingRow; row>=startingRow; row--){
-                result.add(matrix[row][startingCol]);
+//             valid startingCol present h ya nhi
+            if(startingCol<=endingCol) {
+                for (int row = endingRow; row >= startingRow; row--) {
+                    result.add(matrix[row][startingCol]);
+                }
+                startingCol++;
             }
-            startingRow++;
-
         }
         return result;
     }
